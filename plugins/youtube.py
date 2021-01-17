@@ -43,5 +43,5 @@ async def ytdl(_, message):
             await message.reply_photo(thumbnail_url, caption=title, reply_markup=buttons)
         except Exception as e:
             await sentm.edit(
-            f"<code>{e}</code> #Error")
+            f"<code>{e}</code> #Error"),
 
